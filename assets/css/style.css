@@ -1,0 +1,15 @@
+
+.p-text-underline{
+    position: relative;
+    color: #E76F51;
+}
+.p-text-underline::after {
+    position: absolute;
+    content: '';
+    width: 8%;
+    height: 2px;
+    background: #E76F51;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
